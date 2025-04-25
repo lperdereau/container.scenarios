@@ -1,0 +1,32 @@
+{
+  "title": "Writing blue/green YAML",
+  "description": "Learn to write a Kubernetes deployment YAML file.",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "First application",
+        "text": "step-1/text.md",
+        "verify": "step-1/verify.sh"
+      },
+      {
+        "title": "YAML Export",
+        "text": "step-2/text.md",
+        "verify": "step-2/verify.sh"
+      },
+      {
+        "title": "Loadbalance between multiple replicasets",
+        "text": "step-3/text.md",
+        "verify": "step-3/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-1node"
+  }
+}
