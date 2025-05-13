@@ -28,6 +28,6 @@
     }
   },
   "backend": {
-    "imageid": "docker-debian"
+    "imageid": "debian_docker"
   }
 }
