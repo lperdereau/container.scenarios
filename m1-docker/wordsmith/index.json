@@ -1,0 +1,33 @@
+{
+  "title": "Wordsmith - writing Dockerfiles",
+  "description": "Let's write Dockerfiles for an existing application!",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Code repository",
+        "text": "step-1/text.md"
+      },
+      {
+        "title": "Instructions",
+        "text": "step-2/text.md"
+      },
+      {
+        "title": "Build and test",
+        "text": "step-3/text.md"
+      },
+      {
+        "title": "Test with a Compose file",
+        "text": "step-4/text.md"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "docker-debian"
+  }
+}
